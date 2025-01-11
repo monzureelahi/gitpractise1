@@ -1,0 +1,70 @@
+    1  ls -a
+    2  git init
+    3  ls -a
+    4  pwd
+    5  git config --list
+    6  clear
+    7  git config --global user.name "Monzur Elahi"
+    8  git config --global user.email "elahi@piit.us"
+    9  git config --list
+   10  pwd
+   11  clear
+   12  touch file1
+   13  ls
+   14  nano file1
+   15  cat file1
+   16  ls
+   17  cat file2
+   18  git status
+   19  git add file1
+   20  git status
+   21  clear
+   22  git commit -m "added file1 to local repo"
+   23  git status
+   24  ls
+   25  git status
+   26  ls
+   27  clear
+   28  git sattus
+   29  git status
+   30  git log
+   31  git add file2
+   32  git status
+   33  git commit -m "added file2"
+   34  git log
+   35  clear
+   36  git log
+   37  git status
+   38  touch file3 file4
+   39  git status
+   40  nano file3
+   41  nano file4
+   42  mv file4 file4.txt
+   43  ls
+   44  git status
+   45  git add .
+   46  git status
+   47  git commit -m "added file3 and file4.txt"
+   48  git sattus
+   49  clear
+   50  git status
+   51  git log
+   52  history
+   53  clear
+   54  pwd
+   55  ls
+   56  git status
+   57  nano file1
+   58  mv file2 file2.txt
+   59  ls
+   60  git status
+   61  git add .
+   62  nano file1
+   63  nano file2.txt
+   64  git status
+   65  git diff
+   66  clear
+   67  git diff
+   68  git diff --staged
+   69  clear
+   70  git diff HEAD
